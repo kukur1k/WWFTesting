@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDevProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DevProject>
+    <Id>1</Id>
+    <Name>Proj1</Name>
+    <Leader>Ivanov</Leader>
+    <Status>Create</Status>
+    <Priority>1</Priority>
+  </DevProject>
+  <DevProject>
+    <Id>2</Id>
+    <Name>ProjLearn</Name>
+    <Leader>Petrov</Leader>
+    <Status>InWork</Status>
+    <Priority>1</Priority>
+  </DevProject>
+  <DevProject>
+    <Id>3</Id>
+    <Name>TeamWork</Name>
+    <Leader>Petrovskiy</Leader>
+    <Status>Create</Status>
+    <Priority>2</Priority>
+  </DevProject>
+</ArrayOfDevProject>
