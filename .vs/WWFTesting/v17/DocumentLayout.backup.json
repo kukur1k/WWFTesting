@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C#_Project\\WWFTesting\\",
+  "WorkspaceRootPath": "C:\\C#_Project\\WWFTesting\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53EDB028-D7BF-45DA-A1DA-82134331C914}|WWFTesting\\WWFTesting.csproj|d:\\c#_project\\wwftesting\\wwftesting\\testprojectmanager_crudoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{53EDB028-D7BF-45DA-A1DA-82134331C914}|WWFTesting\\WWFTesting.csproj|c:\\c#_project\\wwftesting\\wwftesting\\testprojectmanager_crudoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53EDB028-D7BF-45DA-A1DA-82134331C914}|WWFTesting\\WWFTesting.csproj|solutionrelative:wwftesting\\testprojectmanager_crudoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53EDB028-D7BF-45DA-A1DA-82134331C914}|WWFTesting\\WWFTesting.csproj|d:\\c#_project\\wwftesting\\wwftesting\\testprolectmanager_readandwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53EDB028-D7BF-45DA-A1DA-82134331C914}|WWFTesting\\WWFTesting.csproj|solutionrelative:wwftesting\\testprolectmanager_readandwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E31978B9-788E-4B04-8CA9-59515CA38520}|WorkWithTextFormat\\WorkWithTextFormat.csproj|c:\\c#_project\\wwftesting\\workwithtextformat\\servicesmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31978B9-788E-4B04-8CA9-59515CA38520}|WorkWithTextFormat\\WorkWithTextFormat.csproj|solutionrelative:workwithtextformat\\servicesmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E31978B9-788E-4B04-8CA9-59515CA38520}|WorkWithTextFormat\\WorkWithTextFormat.csproj|d:\\c#_project\\wwftesting\\workwithtextformat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E31978B9-788E-4B04-8CA9-59515CA38520}|WorkWithTextFormat\\WorkWithTextFormat.csproj|c:\\c#_project\\wwftesting\\workwithtextformat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E31978B9-788E-4B04-8CA9-59515CA38520}|WorkWithTextFormat\\WorkWithTextFormat.csproj|solutionrelative:workwithtextformat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E31978B9-788E-4B04-8CA9-59515CA38520}|WorkWithTextFormat\\WorkWithTextFormat.csproj|d:\\c#_project\\wwftesting\\workwithtextformat\\workwithdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E31978B9-788E-4B04-8CA9-59515CA38520}|WorkWithTextFormat\\WorkWithTextFormat.csproj|c:\\c#_project\\wwftesting\\workwithtextformat\\workwithdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E31978B9-788E-4B04-8CA9-59515CA38520}|WorkWithTextFormat\\WorkWithTextFormat.csproj|solutionrelative:workwithtextformat\\workwithdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E31978B9-788E-4B04-8CA9-59515CA38520}|WorkWithTextFormat\\WorkWithTextFormat.csproj|d:\\c#_project\\wwftesting\\workwithtextformat\\devproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E31978B9-788E-4B04-8CA9-59515CA38520}|WorkWithTextFormat\\WorkWithTextFormat.csproj|c:\\c#_project\\wwftesting\\workwithtextformat\\devproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E31978B9-788E-4B04-8CA9-59515CA38520}|WorkWithTextFormat\\WorkWithTextFormat.csproj|solutionrelative:workwithtextformat\\devproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,34 +30,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TestProjectManager_CRUDOperations.cs",
-              "DocumentMoniker": "D:\\C#_Project\\WWFTesting\\WWFTesting\\TestProjectManager_CRUDOperations.cs",
+              "DocumentMoniker": "C:\\C#_Project\\WWFTesting\\WWFTesting\\TestProjectManager_CRUDOperations.cs",
               "RelativeDocumentMoniker": "WWFTesting\\TestProjectManager_CRUDOperations.cs",
-              "ToolTip": "D:\\C#_Project\\WWFTesting\\WWFTesting\\TestProjectManager_CRUDOperations.cs",
+              "ToolTip": "C:\\C#_Project\\WWFTesting\\WWFTesting\\TestProjectManager_CRUDOperations.cs",
               "RelativeToolTip": "WWFTesting\\TestProjectManager_CRUDOperations.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAkwDQAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAiwHcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T20:59:16.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicesMethods.cs",
+              "DocumentMoniker": "C:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\ServicesMethods.cs",
+              "RelativeDocumentMoniker": "WorkWithTextFormat\\ServicesMethods.cs",
+              "ToolTip": "C:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\ServicesMethods.cs",
+              "RelativeToolTip": "WorkWithTextFormat\\ServicesMethods.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwFEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T08:28:42.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "WorkwithData.cs",
-              "DocumentMoniker": "D:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\WorkwithData.cs",
+              "DocumentMoniker": "C:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\WorkwithData.cs",
               "RelativeDocumentMoniker": "WorkWithTextFormat\\WorkwithData.cs",
-              "ToolTip": "D:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\WorkwithData.cs",
+              "ToolTip": "C:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\WorkwithData.cs",
               "RelativeToolTip": "WorkWithTextFormat\\WorkwithData.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAowOAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwI0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T19:38:21.13Z",
               "EditorCaption": ""
@@ -66,11 +75,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\Program.cs",
+              "DocumentMoniker": "C:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\Program.cs",
               "RelativeDocumentMoniker": "WorkWithTextFormat\\Program.cs",
-              "ToolTip": "D:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\Program.cs",
+              "ToolTip": "C:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\Program.cs",
               "RelativeToolTip": "WorkWithTextFormat\\Program.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAowNUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAmwG8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T19:37:25.682Z",
               "EditorCaption": ""
@@ -79,27 +88,24 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "DevProject.cs",
-              "DocumentMoniker": "D:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\DevProject.cs",
+              "DocumentMoniker": "C:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\DevProject.cs",
               "RelativeDocumentMoniker": "WorkWithTextFormat\\DevProject.cs",
-              "ToolTip": "D:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\DevProject.cs",
+              "ToolTip": "C:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\DevProject.cs",
               "RelativeToolTip": "WorkWithTextFormat\\DevProject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T19:37:23.981Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestProlectManager_ReadAndWrite.cs",
-              "DocumentMoniker": "D:\\C#_Project\\WWFTesting\\WWFTesting\\TestProlectManager_ReadAndWrite.cs",
-              "RelativeDocumentMoniker": "WWFTesting\\TestProlectManager_ReadAndWrite.cs",
-              "ToolTip": "D:\\C#_Project\\WWFTesting\\WWFTesting\\TestProlectManager_ReadAndWrite.cs",
-              "RelativeToolTip": "WWFTesting\\TestProlectManager_ReadAndWrite.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T19:27:32.069Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

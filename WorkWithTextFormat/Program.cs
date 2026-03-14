@@ -84,20 +84,39 @@ void StructOperations()
     switch (flagOperType)
     {
         case 1:
-            AddDevProject();
+            DevProject devProject = new DevProject();
+            Console.WriteLine("Name -- ");
+            devProject.Name = Console.ReadLine();
+            Console.WriteLine("Leader -- ");
+            devProject.Leader = Console.ReadLine();
+            Console.WriteLine("Status -- ");
+            devProject.Status = Enum.Parse<Status>(Console.ReadLine());
+            Console.WriteLine("Priority -- ");
+            devProject.Priority = Convert.ToInt32(Console.ReadLine());
+            ServicesMethods.AddDevProject(projects, devProject);
             break;
         case 2:
             Console.WriteLine("Enter project ID");
             projId = Convert.ToInt32(Console.ReadLine());
-            RemoveDevProject(projId);
+            ServicesMethods.RemoveDevProject(projId, projects);
             break;
         case 3:
             Console.WriteLine("Enter project ID");
             projId = Convert.ToInt32(Console.ReadLine());
-            UpdateDevProject(projId);
+            Console.WriteLine("Name -- ");
+            string Name = Console.ReadLine();
+            Console.WriteLine("Leader -- ");
+            string Leader = Console.ReadLine();
+            Console.WriteLine("Status -- ");
+            Status Status = Enum.Parse<Status>(Console.ReadLine());
+            Console.WriteLine("Priority -- ");
+            int Priority = Convert.ToInt32(Console.ReadLine());
+            ServicesMethods.UpdateDevProject(projId, projects, Name, Leader, Status, Priority);
             break;
         case 4:
-            Search(projects.DevProjects);
+            Console.WriteLine("---Enter SubSting---");
+            string subString = Console.ReadLine();
+            List<DevProject> subList = ServicesMethods.Search(subString, projects.DevProjects);
             break;
         case 5:
             Console.WriteLine("-----Enter parameter-----");
@@ -106,16 +125,16 @@ void StructOperations()
             switch (EnterParemeter)
             {
                 case 1:
-                    Sort(projects.DevProjects, "Name");
+                    projects.DevProjects = ServicesMethods.Sort(projects.DevProjects, "Name");
                     break;
                 case 2:
-                    Sort(projects.DevProjects, "Leader");
+                    projects.DevProjects = ServicesMethods.Sort(projects.DevProjects, "Leader");
                     break;
                 case 3:
-                    Sort(projects.DevProjects, "Status");
+                    projects.DevProjects = ServicesMethods.Sort(projects.DevProjects, "Status");
                     break;
                 case 4:
-                    Sort(projects.DevProjects, "Priority");
+                    projects.DevProjects = ServicesMethods.Sort(projects.DevProjects, "Priority");
                     break;
                 default:
                     Console.WriteLine("Invalid parameter");
@@ -127,105 +146,3 @@ void StructOperations()
     
 }
 
-void Sort(List<DevProject> Projects, string ParameterName)
-{
-    Console.WriteLine("---Sorting data---");
-
-    List<DevProject> SortedProj = new List<DevProject>();
-    if (ParameterName == "Name")
-    {
-        SortedProj = Projects.OrderBy(x => x.Name).ToList();
-    }
-    if (ParameterName == "Leader")
-    {
-        SortedProj = Projects.OrderBy(x => x.Leader).ToList();
-    }
-
-    if (ParameterName == "Status")
-    {
-        SortedProj = Projects.OrderBy(x => x.Status).ToList();
-    }
-
-    if (ParameterName == "Priority")
-    {
-        SortedProj = Projects.OrderBy(x => x.Priority).ToList();
-    }
-    else
-    {
-        Console.WriteLine("This parameter doesn't exist");
-    }
-
-    foreach (DevProject devProject in SortedProj)
-    {
-        Console.WriteLine(devProject.ToString());
-    }
-    
-}
-
-void Search(List<DevProject> devProjects)
-{
-    Console.WriteLine("---Enter SubSting---");
-    string subSting = Console.ReadLine();
-    List<DevProject> subProjects = new List<DevProject>();
-
-    foreach (var item in devProjects)
-    {
-        if (item.Name.Contains(subSting) || item.Leader.Contains(subSting))
-        {
-            subProjects.Add(item);
-        }
-    }
-
-    if (subProjects.Count == 0)
-    {
-        Console.WriteLine("Projects with this substruct does not exist");
-    }
-    else
-    {
-        foreach (DevProject devProject in subProjects)
-        {
-            Console.WriteLine(devProject.ToString());
-        }
-    }
-}
-
-void AddDevProject()
-{
-    DevProject devProject = new DevProject();
-    Console.WriteLine("Name -- ");
-    devProject.Name = Console.ReadLine();
-    Console.WriteLine("Leader -- ");
-    devProject.Leader = Console.ReadLine();
-    Console.WriteLine("Status -- ");
-    devProject.Status =  Enum.Parse<Status>(Console.ReadLine());
-    Console.WriteLine("Priority -- ");
-    devProject.Priority = Convert.ToInt32(Console.ReadLine());
-    
-    projects.DevProjects.Add(devProject);
-}
-
-void UpdateDevProject(int devProjectID)
-{
-    List<DevProject> Projects = projects.DevProjects.Where(x => x.Id == devProjectID).ToList();
-    if (Projects.Count == 0)
-    {
-        throw new Exception("No project found with id - " + devProjectID);
-    }
-    else
-    {
-        Console.WriteLine("Name -- ");
-        Projects[0].Name = Console.ReadLine();
-        Console.WriteLine("Leader -- ");
-        Projects[0].Leader = Console.ReadLine();
-        Console.WriteLine("Status -- ");
-        Projects[0].Status =  Enum.Parse<Status>(Console.ReadLine());
-        Console.WriteLine("Priority -- ");
-        Projects[0].Priority = Convert.ToInt32(Console.ReadLine());
-    }
-}
-
-void RemoveDevProject(int devProjectID)
-{
-    projects.DevProjects.Remove(projects.DevProjects.Where(x => x.Id == devProjectID).FirstOrDefault());
-    Console.WriteLine("Remove successfull");
-}
