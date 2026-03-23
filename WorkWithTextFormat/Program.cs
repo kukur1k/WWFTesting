@@ -1,6 +1,15 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 using System.Net.Http.Json;
 using WorkWithTextFormat;
+
+
+//логи
+Trace.Listeners.Add(new ConsoleTraceListener());
+
+TextWriterTraceListener fileListener = new TextWriterTraceListener("logMessages.txt");
+Trace.Listeners.Add(fileListener);
+Trace.AutoFlush = true;
 
 
 var dataHandler = new WorkwithData<DevProject>();
@@ -17,6 +26,7 @@ while (ExitFlag != 0)
     ExitFlag = flagOperType;
     if (ExitFlag == 0)
     {
+        fileListener.Close();
         Environment.Exit(0);
     }
     switch (flagOperType)
@@ -33,6 +43,7 @@ while (ExitFlag != 0)
 
 
 
+
     void SerOperations()
     {
         Console.WriteLine("------------------Enter operation---------------");
@@ -45,17 +56,32 @@ while (ExitFlag != 0)
             case 1:
                 Console.WriteLine("--Enter File path--");
                 filePath = Console.ReadLine();
-                dataHandler.WriteToFile(projects.DevProjects, filePath);
+                try
+                {
+                    dataHandler.WriteToFile(projects.DevProjects, filePath);
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                
                 break;
             case 2:
                 Console.WriteLine("--Enter File path--");
-                filePath = Console.ReadLine();
+                try
+                {
+                    filePath = Console.ReadLine();
+                }
+                catch (Exception ex)
+                { 
+                    Console.WriteLine(ex.Message);
+                }
+                
                 projects.DevProjects = dataHandler.ReadData(filePath);
                 
                 //Выбираем максимальный ID и назначаем текущим следующий
                 int MaxId = projects.DevProjects.Max(x => x.Id);
                 DevProject.SetCurrentID(MaxId+1);
-                
                 
                 break;
             case 3:

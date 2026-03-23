@@ -87,3 +87,4 @@ C:\C#_Project\WWFTesting\WorkWithTextFormat\obj\Debug\net8.0\refint\WorkWithText
 C:\C#_Project\WWFTesting\WorkWithTextFormat\obj\Debug\net8.0\WorkWithTextFormat.pdb
 C:\C#_Project\WWFTesting\WorkWithTextFormat\obj\Debug\net8.0\WorkWithTextFormat.genruntimeconfig.cache
 C:\C#_Project\WWFTesting\WorkWithTextFormat\obj\Debug\net8.0\ref\WorkWithTextFormat.dll
+D:\C#_Project\WWFTesting\WorkWithTextFormat\obj\Debug\net8.0\WorkWithTextFormat.sourcelink.json

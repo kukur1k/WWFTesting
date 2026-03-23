@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\WorkWithTextFormat.csproj": {}
+    "D:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\WorkWithTextFormat.csproj": {}
   },
   "projects": {
-    "C:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\WorkWithTextFormat.csproj": {
+    "D:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\WorkWithTextFormat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\WorkWithTextFormat.csproj",
+        "projectUniqueName": "D:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\WorkWithTextFormat.csproj",
         "projectName": "WorkWithTextFormat",
-        "projectPath": "C:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\WorkWithTextFormat.csproj",
+        "projectPath": "D:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\WorkWithTextFormat.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\obj\\",
+        "outputPath": "D:\\C#_Project\\WWFTesting\\WorkWithTextFormat\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -75,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -785,3 +785,4 @@ C:\C#_Project\WWFTesting\WWFTesting\bin\Debug\net8.0\WorkWithTextFormat.pdb
 C:\C#_Project\WWFTesting\WWFTesting\obj\Debug\net8.0\WWFTesting.csproj.Up2Date
 C:\C#_Project\WWFTesting\WWFTesting\obj\Debug\net8.0\WWFTesting.genruntimeconfig.cache
 C:\C#_Project\WWFTesting\WWFTesting\obj\Debug\net8.0\ref\WWFTesting.dll
+D:\C#_Project\WWFTesting\WWFTesting\obj\Debug\net8.0\WWFTesting.sourcelink.json

@@ -1,0 +1,2 @@
+WorkWithTextFormat Error: 0 : Ошибка при чтении JSON -'S' is invalid after a value. Expected either ',', '}', or ']'. Path: $[0] | LineNumber: 0 | BytePositionInLine: 45.
+WorkWithTextFormat Error: 0 : Ошибка при чтении из файла D:\C#_Project\WWFTesting\WorkWithTextFormat\bin\Debug\net8.0\SerealizeFiles\projects.json -- Ошибка при чтении JSON -'S' is invalid after a value. Expected either ',', '}', or ']'. Path: $[0] | LineNumber: 0 | BytePositionInLine: 45.

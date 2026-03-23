@@ -2,6 +2,7 @@
 using CsvHelper.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization; 
 using System.Linq;
 using System.Reflection.PortableExecutable;
@@ -50,6 +51,7 @@ public class WorkwithData<T>
         catch(Exception ex)
         {
             Console.WriteLine(ex.Message);
+            Trace.TraceError($"Ошибка при записи в файл {filePath} -- {ex.Message}");
         }
     }
 
@@ -81,6 +83,7 @@ public class WorkwithData<T>
         catch (Exception ex)
         {
             Console.WriteLine(ex.Message);
+            Trace.TraceError($"Ошибка при чтении из файла {filepath} -- {ex.Message}");
             return null;
         }
         
@@ -101,6 +104,7 @@ public class WorkwithData<T>
         }
         catch (Exception e)
         {
+            Trace.TraceError("Ошибка при чтении JSON -" + e.Message);
             throw new Exception("Ошибка при чтении JSON -" + e.Message);
         }
         
@@ -121,6 +125,7 @@ public class WorkwithData<T>
         }
         catch (Exception e)
         {
+            Trace.TraceError("Ошибка при чтении XML -" + e.Message);
             throw new Exception("Ошибка при чтении XML -" + e.Message);
         }
     }
@@ -137,6 +142,7 @@ public class WorkwithData<T>
         }
         catch (Exception e)
         {
+            Trace.TraceError("Ошибка при чтении YAML -" + e.Message);
             throw new Exception("Ошибка при чтении YAML -" + e.Message);
         }
 
@@ -155,6 +161,7 @@ public class WorkwithData<T>
         }
         catch (Exception e)
         {
+            Trace.TraceError("Ошибка при чтении CSV -" + e.Message);
             throw new Exception("Ошибка при чтении CSV -" + e.Message);
         }
 
@@ -175,6 +182,7 @@ public class WorkwithData<T>
         }
         catch (Exception e)
         {
+            Trace.TraceError("Ошибка при записи JSON -" + e.Message);
             throw new Exception("Ошибка при записи JSON -" + e.Message);
         }
 
@@ -195,6 +203,7 @@ public class WorkwithData<T>
         }
         catch (Exception e)
         {
+            Trace.TraceError("Ошибка при записи CSV -" + e.Message);
             throw new Exception("Ошибка при записи XML -" + e.Message);
         }
     }
@@ -213,6 +222,7 @@ public class WorkwithData<T>
         }
         catch (Exception e)
         {
+            Trace.TraceError("Ошибка при записи CSV -" + e.Message);
             throw new Exception("Ошибка при записи CSV -" + e.Message);
         }
     }
@@ -230,6 +240,7 @@ public class WorkwithData<T>
         }
         catch (Exception e)
         {
+            Trace.TraceError("Ошибка при записи YAML -" + e.Message);
             throw new Exception("Ошибка при записи YAML -" + e.Message);
         }
     }
